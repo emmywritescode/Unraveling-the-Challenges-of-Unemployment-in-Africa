@@ -7,10 +7,11 @@ The primary goal of this case study is to analyze data, identify patterns, and p
 The following Power BI skills were incorporated into this project:
 - Data transformation using Power Query Editor.
 - Data modeling on Power BI.
-- Knowledge of DAX functions. RELATED, VAR, RETURN, FORMAT, IF, and CALCULATE were among the functions used in this project.
+- Knowledge of DAX functions. RELATED, VAR, RETURN, FORMAT, IF, CALCULATE, and SELECTEDVALUE were among the notable functions used in this project.
 - Data visualization on Power BI.
 ## Data sourcing
 This project was done as participation in the Data Hackathon organized by 10Analytics on December 2nd & 3rd, 2023. Hence the [data sets](https://1drv.ms/u/s!AtAJMpFe5Cy_1AKmx2H66xZyrKrp?e=I0xyBJ) were provided to interested participants by the organizers. A total of 6 data sets were provided containing the unemployment rate among the male and female population, the national strategy for youth unemployment, the share of education in the government's expenditure, the share of the population with access to electricity, the total business density rate, and the code for each country.
-## Data transformation
-All records containing null values in the unemployment rate column of the corresponding data set were dropped. Similarly, unemployment records with invalid year values were also dropped.
+## Data cleaning and transformation
+All records containing null values in the unemployment rate column of the corresponding data set were dropped. Similarly, unemployment records with invalid year values were also dropped. The male and female unemployment rates were converted to percentages for ease of understanding and each data set was filtered for a closer look at African countries.
+## Data modeling
 
