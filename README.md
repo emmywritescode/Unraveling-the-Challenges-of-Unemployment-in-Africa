@@ -14,4 +14,5 @@ This project was done as participation in the Data Hackathon organized by 10Anal
 ## Data cleaning and transformation
 All records containing null values in the unemployment rate column of the corresponding data set were dropped. Similarly, unemployment records with invalid year values were also dropped. The male and female unemployment rates were converted to percentages for ease of understanding and each data set was filtered for a closer look at African countries.
 ## Data modeling
-
+The model is a star schema. A one-to-many relationship exists between the data set containing the country codes (dimension table) and each of the other data sets (fact tables). The relationship between the data sets can be seen below.
+![](model.png)
