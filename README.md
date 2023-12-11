@@ -16,3 +16,7 @@ All records containing null values in the unemployment rate column of the corres
 ## Data modeling
 The model is a star schema. A one-to-many relationship exists between the data set containing the country codes (dimension table) and each of the other data sets (fact tables). The relationship between the data sets can be seen below.
 ![](model.png)
+## Analysis
+Analysis revealed that over the period, Lesotho had the highest unemployment rate (23.55%) among the male population while Djibouti had the highest female unemployment rate (36.89%) of any African country. A scatter plot indicated a very weak negative relationship between the average population of each gender and the average unemployment rate. Additionally, by comparing the percentage of the government's expenditure on education, the percentage of the population with access to electricity, and the total business density rate of the countries with the highest unemployment rates with those of the countries with the lowest unemployment rates, it was observed that these factors did not influence the unemployment rates.
+## Visualization
+The data was visualized on a single dashboard which toggles to provide a closer look at unemployment from a gendered basis. A clear image of the interactive dashboard can be seen below while it can be interacted with [here.
